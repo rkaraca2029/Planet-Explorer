@@ -4,7 +4,7 @@ An interactive, browser-based space exploration game where you pilot a spacecraf
 
 ## Demo
 
-Open `index.html` in any modern browser — no installation or build step required.
+Open `space_explorer.html` in any modern browser — no installation or build step required.
 
 ## Features
 
@@ -17,7 +17,7 @@ Open `index.html` in any modern browser — no installation or build step requir
 
 ## How to Play
 
-1. Open `index.html` in your browser
+1. Open `space_explorer.html` in your browser
 2. Click any planet to fly your ship there
 3. On arrival, an AI-generated explorer's log is written for that planet
 4. Manage your fuel — the dashed circle shows your current travel range
@@ -33,8 +33,8 @@ Open `index.html` in any modern browser — no installation or build step requir
 ## Project Structure
 
 ```
-space-explorer/
-└── index.html    # Everything lives here — game engine, UI, and API calls
+planet-explorer/
+└── space_explorer.html    # Everything lives here — game engine, UI, and API calls
 ```
 
 ## API Key
@@ -42,7 +42,7 @@ space-explorer/
 The game calls the Anthropic API directly from the browser. This is handled automatically when running via [Claude.ai](https://claude.ai) artifacts. If you want to self-host:
 
 1. Sign up at [console.anthropic.com](https://console.anthropic.com)
-2. Add your API key to the fetch headers in `index.html`:
+2. Add your API key to the fetch headers in `space_explorer.html`:
    ```js
    headers: {
      'Content-Type': 'application/json',
