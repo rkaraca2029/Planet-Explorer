@@ -24,6 +24,11 @@ Open `space_explorer.html` in any modern browser — no installation or build st
 5. Open **Ship Log** (top right) to review past discoveries
 6. Discover all 15 planets to complete your galactic survey
 
+
+## How this was built
+
+I built this project with [Claude](https://claude.ai) as an AI coding assistant. My role was directing the work: I decided what the project should do, broke it into features, and wrote the prompts that guided Claude through building each one. Claude wrote the code.
+
 ## Tech Stack
 
 - **Vanilla HTML/CSS/JS** — zero dependencies, no build tools
